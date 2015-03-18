@@ -28,7 +28,9 @@ DBsession = sessionmaker(bind = engine)
 
 if __name__ == '__main__':
 	newsession = DBsession()
+	#
 	newuser = User(id = '3', name = 'Sun')
 	newsession.add(newuser)
+	#
 	newsession.commit()
 	newsession.close()
