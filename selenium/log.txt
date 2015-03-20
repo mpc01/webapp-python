@@ -1,0 +1,2 @@
+2015-03-20 20:07:50,982 - DEBUG: debug message!
+2015-03-20 20:07:50,990 - INFO: info message!
