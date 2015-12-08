@@ -27,7 +27,7 @@ def init_browser():
 	#init driver
 	driver = webdriver.Chrome()
 	#init browser
-	driver.get("http://gix5-stag.glodon.com")
+	return driver
 
 
 @log_maker
@@ -45,11 +45,11 @@ def login(user, pwd):
 
 if __name__ == "__main__":
 	try:
-		init_browser()
+		init_browser.get("http://gix5-stag.glodon.com")
 		login("mpc01@126.com", "123123")
 	except Exception, e:
 		logging.exception(e)
 	finally:
-		driver.close()
+		init_browser.close()
 	
 

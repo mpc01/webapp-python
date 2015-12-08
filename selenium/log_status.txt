@@ -1,0 +1,5 @@
+2015-03-24 17:52:00,436 - ERROR: 'function' object has no attribute 'get'
+Traceback (most recent call last):
+  File "F:\webapp-python\selenium\change_stauts.py", line 48, in <module>
+    init_browser.get("http://gix5-stag.glodon.com")
+AttributeError: 'function' object has no attribute 'get'
